@@ -8,8 +8,10 @@ This is a repo which contains the Git commands I use most frequently.
   <summary>Click to expand</summary>
   
 - [Commands](#commands)
-  * [Console](#console)
-  * [Chrome Extension](#chrome-extension)
+  * [Stage Changes](#stage-changes)
+  * [Commit Staged Changes](#commit-staged-changes)
+  * [Push Commits](#push-commits)
+  * [Undo Previous Commit](#undo-previous-commit)
 - [Credits](#credits)
 </details>
 
@@ -19,7 +21,7 @@ This is a repo which contains the Git commands I use most frequently.
 
 This Git command stages any modified files.
 
-```console
+```
 git add .
 ```
 
@@ -27,15 +29,15 @@ git add .
 
 This Git command commits any staged changes.
 
-```console
+```
 git commit -m "<MESSAGE>"
 ```
 
-#### Push Commit
+#### Push Commits
 
 This Git command pushes all commits to the remote repository.
 
-```console
+```
 git commit -m "<MESSAGE>"
 ```
 
@@ -43,7 +45,7 @@ git commit -m "<MESSAGE>"
 
 This Git command undoes the previous commit if it has not been pushed yet.
 
-```console
+```
 git reset --soft HEAD~
 ```
 
