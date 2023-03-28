@@ -62,6 +62,15 @@ git remote add origin https://github.com/alexlostorto/<REPO-NAME>.git
 git push -u origin main
 ```
 
+#### FATAL: No Upstream Branch
+
+This Git command fixes the 'fatal: The current branch main has no upstream branch.' error.
+
+```
+git config --global push.autoSetupRemote true
+git push
+```
+
 ## Credits
 
 Everything is coded by Alex lo Storto
