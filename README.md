@@ -49,6 +49,19 @@ This Git command undoes the previous commit if it has not been pushed yet.
 git reset --soft HEAD~
 ```
 
+#### Create Repo
+
+This Git command creates a local repository on the command line.
+
+```
+git add .
+git init
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/alexlostorto/<REPO-NAME>.git
+git push -u origin main
+```
+
 ## Credits
 
 Everything is coded by Alex lo Storto
