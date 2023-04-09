@@ -12,6 +12,7 @@ This is a repo which contains the Git commands I use most frequently.
   * [Commit Staged Changes](#commit-staged-changes)
   * [Push Commits](#push-commits)
   * [Undo Previous Commit](#undo-previous-commit)
+  * [Rename Folder when Cloning](#rename-folder-when-cloning)
 - [Credits](#credits)
 </details>
 
@@ -69,6 +70,14 @@ This Git command fixes the 'fatal: The current branch main has no upstream branc
 ```
 git config --global push.autoSetupRemote true
 git push
+```
+
+#### Rename Folder when Cloning
+
+This Git command changes the name of the folder when cloning from GitHub.
+
+```
+git clone <Repo> <DestinationDirectory>
 ```
 
 ## Credits
