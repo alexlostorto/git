@@ -13,6 +13,7 @@ This is a repo which contains the Git commands I use most frequently.
   * [Push Commits](#push-commits)
   * [Undo Previous Commit](#undo-previous-commit)
   * [Rename Folder when Cloning](#rename-folder-when-cloning)
+  * [Delete Commit History](#delete-commit-history)
 - [Credits](#credits)
 </details>
 
@@ -78,6 +79,28 @@ This Git command changes the name of the folder when cloning from GitHub.
 
 ```
 git clone <Repo> <DestinationDirectory>
+```
+
+#### Delete Commit History
+
+This Git command deletes the commit history of a repository on Github.
+
+```
+Step1: Create a new branch
+Step2: Add all the files
+Step3: Commit the changes
+Step4: Delete the branch
+Step5: Rename the current branch to main
+Step6: Force update your respoitory
+```
+
+```
+git checkout --orphan latest_branch
+git add .
+git commit -m "<MESSAGE>"
+git branch -D main
+git branch -m main
+git push -f origin main
 ```
 
 ## Credits
