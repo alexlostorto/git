@@ -56,8 +56,8 @@ git reset --soft HEAD~
 This Git command creates a local repository on the command line.
 
 ```
-git add .
 git init
+git add .
 git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://github.com/alexlostorto/<REPO-NAME>.git
