@@ -14,6 +14,7 @@ This is a repo which contains the Git commands I use most frequently.
   * [Undo Previous Commit](#undo-previous-commit)
   * [Rename Folder when Cloning](#rename-folder-when-cloning)
   * [Delete Commit History](#delete-commit-history)
+  * [Change Git Remote URL](#delete-commit-history)
 - [Credits](#credits)
 </details>
 
@@ -101,6 +102,20 @@ git commit -m "<MESSAGE>"
 git branch -D main
 git branch -m main
 git push -f origin main
+```
+
+#### Change Git Remote URL
+
+This Git command changes the URL of a Git remote.
+
+```
+git remote set-url origin https://github.com/<USER><REPO-NAME>.git
+```
+
+To verify that the changes were made use the 'git remote' command with the '-v' option (verbose).
+
+```
+git remote -v
 ```
 
 ## Credits
