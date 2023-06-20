@@ -118,6 +118,14 @@ To verify that the changes were made use the 'git remote' command with the '-v' 
 git remote -v
 ```
 
+#### Create Requirements.txt
+
+This command uses Pipreqs to create a requirements.txt file
+
+```
+python -m pipreqs.pipreqs
+```
+
 ## Credits
 
 Everything is coded by Alex lo Storto
