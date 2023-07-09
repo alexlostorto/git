@@ -14,7 +14,8 @@ This is a repo which contains the Git commands I use most frequently.
   * [Undo Previous Commit](#undo-previous-commit)
   * [Rename Folder when Cloning](#rename-folder-when-cloning)
   * [Delete Commit History](#delete-commit-history)
-  * [Change Git Remote URL](#delete-commit-history)
+  * [Change Git Remote URL](#change-git-remote-url)
+  * [Create Requirements.txt](#create-requirements.txt)
 - [Credits](#credits)
 </details>
 
