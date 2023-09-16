@@ -85,7 +85,7 @@ git clone <Repo> <DestinationDirectory>
 
 #### Delete Commit History
 
-This Git command deletes the commit history of a repository on Github.
+This Git command deletes the commit history of a repository on GitHub.
 
 ```
 Step1: Create a new branch
@@ -93,7 +93,7 @@ Step2: Add all the files
 Step3: Commit the changes
 Step4: Delete the branch
 Step5: Rename the current branch to main
-Step6: Force update your respoitory
+Step6: Force update your repository
 ```
 
 ```
@@ -110,7 +110,7 @@ git push -f origin main
 This Git command changes the URL of a Git remote.
 
 ```
-git remote set-url origin https://github.com/<USER><REPO-NAME>.git
+git remote set-url origin https://github.com/<USER>/<REPO-NAME>.git
 ```
 
 To verify that the changes were made use the 'git remote' command with the '-v' option (verbose).
